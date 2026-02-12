@@ -1,5 +1,5 @@
-class Bicycle extends Vehicle {
-    Bicycle(String name, String color) {
+public class Bicycle extends Vehicle {
+    public Bicycle(String name, String color) {
         super(name, color);
         this.velocity = 5;
     }

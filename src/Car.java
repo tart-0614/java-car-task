@@ -1,8 +1,8 @@
-class Car extends Vehicle {
+public class Car extends Vehicle {
     private int fuel = 100;
 
-    Car(String name, String color) {
-        super(name, color); 
+    public Car(String name, String color) {
+        super(name, color);
         this.velocity = 10;
     }
 
